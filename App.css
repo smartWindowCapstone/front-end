@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+    width:100%;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+.page {
+  position : absolute;
+  top : 0;
+  bottom : 0;
+  width : 100%;
+
+  left : 50%;
+  transform: translate(-50%, 0);
+
+  background-color: aliceblue;
+
+  /* overflow: hidden; */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 18px;
+}
+
+/* ----------------------------- */
+.NowSky {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather_forecast {
+  display: flex;
+  flex-direction: column;
+}
+
+.SKY_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+}
+
+.T1H_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+}
+
+.T1H_value{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}

@@ -1,0 +1,23 @@
+.page {
+  position : absolute;
+  top : 0;
+  bottom : 0;
+  width : 100%;
+  max-width: 500px;
+  padding: 0 20px;
+
+  left : 50%;
+  transform: translate(-50%, 0);
+
+  background-color: aliceblue;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 18px;
+}
+
